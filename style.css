@@ -1,0 +1,55 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid;
+border-color: black;
+height: 480px;
+margin-top: 60px;
+background-color: lightgray;
+border-radius: 20px;
+}
+
+.containerVisor{
+border: 1px solid;
+border-color: black;
+height: 40px;
+margin-top: 15px;
+display: flex;
+align-items: center;
+background-color: aquamarine;
+}
+
+.containerNumbers{
+display: flex;
+justify-content: center;
+}
+
+.button{
+border: 1px solid;
+border-color: black;
+background-color:tomato;
+display: flex;
+align-items: center;
+justify-content: center;
+height:60px ;
+margin-top: 10px;
+margin-right: 15px;
+cursor: pointer;
+}
+
+.buttonOperador{
+background-color:pink;
+margin-right: 0px;
+
+}
+
+.buttonResult{
+    background-color:royalblue;
+}
